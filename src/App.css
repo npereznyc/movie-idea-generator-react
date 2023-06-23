@@ -1,38 +1,80 @@
+:root {
+  --white: #ffffff;
+  --light: whitesmoke;
+  --light-grey: #e8e8e8;
+  --pink: #ff176b;
+  --medium-dark: #777;
+  --dark: #242526;
+  --border-rad-lg: 15px;
+}
+
+body {
+  font-family: 'Poppins';
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-image: url('./assets/moviepitchbg-dark.jpg');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* =================
+      Typography 
+     ================= */
+
+     h1 {
+      font-family: 'Playfair Display SC', serif;
+      text-align: center;
+  }
+  
+  h2 {
+      font-size: 1.3em;
+  }
+  
+  p {
+      line-height: 1.35em;
+  }
+
 .App {
   text-align: center;
 }
+/* =================
+      Sections 
+     ================= */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header>img {
+  height: 26px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header>a {
+  color: var(--light);
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 1em 0;
 }
 
-.App-link {
-  color: #61dafb;
+header span {
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  padding: 0 1em;
+}
+
+section {
+  margin: 0 auto;
+  background-color: var(--light);
+  border-radius: var(--border-rad-lg);
+  padding: .25em 1em;
+  box-shadow: 0px 1px 18px 3px var(--dark);
+  max-width: 420px;
 }
