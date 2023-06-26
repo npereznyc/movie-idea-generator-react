@@ -1,5 +1,7 @@
 import moveiBoss from '../assets/movieboss.png'
 import button from '../assets/send-btn-icon.png'
+import '../styles/SetupContainer.css'
+
 function SetupContainer() {
     return (
         <section id="setup-container">
