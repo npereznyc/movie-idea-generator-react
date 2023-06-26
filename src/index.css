@@ -1,11 +1,49 @@
+:root {
+  --white: #ffffff;
+  --light: whitesmoke;
+  --light-grey: #e8e8e8;
+  --pink: #ff176b;
+  --medium-dark: #777;
+  --dark: #242526;
+  --border-rad-lg: 15px;
+}
+
 body {
+  font-family: 'Poppins';
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-image: url('./assets/moviepitchbg-dark.jpg');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* =================
+      Typography 
+     ================= */
+
+     h1 {
+      font-family: 'Playfair Display SC', serif;
+      text-align: center;
+  }
+  
+  h2 {
+      font-size: 1.3em;
+  }
+  
+  p {
+      line-height: 1.35em;
+  }
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

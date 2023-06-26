@@ -1,5 +1,6 @@
 import logo from './assets/logo-movie.png';
 import './App.css';
+import SetupContainer from './components/SetupContainer';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <a href="/"><span>Movie</span>Pitch</a>
       </header>
 
-      
+      <SetupContainer/>
     </div>
   );
 }
