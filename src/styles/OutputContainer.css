@@ -1,0 +1,18 @@
+/* =================
+      Output 
+     ================= */
+
+     .output-container {
+        /* display: none; */
+        flex-direction: column;
+        margin: 1em auto;
+        color: var(--dark);
+        padding: 1em;
+    }
+    
+    .output-img-container>img {
+        max-width: 100%;
+        border-radius: var(--border-rad-lg);
+        box-shadow: 1px 1px 5px 1px var(--dark);
+    }
+    

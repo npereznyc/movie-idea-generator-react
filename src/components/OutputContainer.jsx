@@ -1,4 +1,4 @@
-
+import '../styles/OutputContainer.css'
 
 function OutputContainer() {
     return (
