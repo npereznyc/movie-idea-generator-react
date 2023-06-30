@@ -1,4 +1,4 @@
-import moveiBoss from '../assets/movieboss.png'
+import movieBoss from '../assets/movieboss.png'
 import button from '../assets/send-btn-icon.png'
 import '../styles/SetupContainer.css'
 
@@ -6,7 +6,7 @@ function SetupContainer() {
     return (
         <section id="setup-container">
             <div class="setup-inner">
-                <img src={moveiBoss}/>
+                <img src={movieBoss}/>
                     <div class="speech-bubble-ai" id="speech-bubble-ai">
                         <p id="movie-boss-text">
                             Give me a one-sentence concept and I'll give you an eye-catching title, a synopsis the studios will love, a movie poster...

@@ -1,6 +1,7 @@
 import logo from './assets/logo-movie.png';
 import './App.css';
 import SetupContainer from './components/SetupContainer';
+import OutputContainer from './components/OutputContainer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
 
       <SetupContainer/>
+      <OutputContainer/>
     </div>
   );
 }
